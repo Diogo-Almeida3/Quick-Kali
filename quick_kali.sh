@@ -93,6 +93,8 @@ echo "installing golang"
 sudo apt install golang-go -y
 echo "running nxc for the first time"
 nxc --version
+echo "installing extra-tools"
+sudo apt install ghidra strace ltrace -y
 echo "we are done, remember this is not everything you will ever need just a lot of stuff. Restart your kali"
 
 echo "Remember the moment you know exactly where you're going
